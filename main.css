@@ -1,0 +1,32 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+/* item section ends here */
+
+
+
+/* item -action section begins here */
+  
+  .item-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .like {
+    cursor: pointer;
+  }
+  
+  .liked {
+    color: red;
+  }
+  
+  #total {
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+  }
+  
